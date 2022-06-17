@@ -1,0 +1,95 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  header {
+    padding: 20px 35px;
+    background-image: url("https://cdn.searchenginejournal.com/wp-content/uploads/2022/04/3-ways-to-automate-ads-625d490bea8fa-sej.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+  header h1 {
+    color: white;
+    font-weight: bold;
+    margin: 0 ;
+    font-size: 24px;
+  }
+  .topnav {
+    overflow: hidden
+  }
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  main {
+    display: flex; 
+    flex-direction: row;
+
+   
+  }
+
+
+  aside{
+    background-color: red;
+    width: 30%;
+    }
+
+  section{
+    background-color: blue;
+    width: 70%;
+  }
+#article2{
+    display: flex;
+    flex-direction:column;
+    background-color: black;
+    width:100%;
+    justify-content:center;
+    align-items: center;
+}
+#div1{
+    background-color: white;
+    width:90%;
+    height:200px;
+}
+#div2{
+    background-color:green;
+    width:90%;
+    height:200px;
+}
+ 
+  /* article {
+    padding: 10px 20px;
+    background-color: rgb(46, 147, 198);
+  }
+
+  aside {
+    float: right;
+    border-style: solid;
+    border: black; 
+    border-width: 2px;
+  } */
+
+  
