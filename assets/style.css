@@ -5,7 +5,7 @@
   }
   
   body {
-    color: var(--tertiary-color);
+    color: gray;
     font-family: Helvetica, Arial, sans-serif;
   }
   header {
@@ -21,6 +21,7 @@
     font-weight: bold;
     margin: 0 ;
     font-size: 24px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   .topnav {
     overflow: hidden
@@ -47,49 +48,104 @@
   main {
     display: flex; 
     flex-direction: row;
-
-   
+    flex-wrap: wrap;
   }
-
-
+.bio {
+  padding: 25px;
+}
   aside{
-    background-color: red;
+    border-style: solid;
+    border-right: solid;
+    border-color: gray;
     width: 30%;
+    display: inline;
     }
 
+div{
+  padding: 40px 0px 0px 12px;
+  height: 200px;
+  font-size: 24px;
+}
+
   section{
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
     width: 70%;
   }
+
 #article2{
     display: flex;
     flex-direction:column;
-    background-color: black;
+    background-color: white;
     width:100%;
     justify-content:center;
     align-items: center;
 }
-#div1{
+
+.class{
+    display: flex;
+    flex-direction:column;
     background-color: white;
-    width:90%;
-    height:200px;
+    width:100%;
+    justify-content:center;
+    align-items: center;
 }
-#div2{
-    background-color:green;
-    width:90%;
-    height:200px;
+
+#work{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container{
+  position:relative;
+}
+
+.projectimg{
+  display: flexbox;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 65%;
+  position: relative;
+  filter: blur(2px)
+}
+.imgheader{
+  display: flexbox;
+  flex-wrap: wrap;
+  position:absolute;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  
+}
+
+#applications{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.img{
+  display: flex;
+  width: auto;
+  height: auto;
+  border: #ddd;
+}
+
+footer {
+    background-image: url("https://cdn.searchenginejournal.com/wp-content/uploads/2022/04/3-ways-to-automate-ads-625d490bea8fa-sej.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    color: white;
+    font-style: normal;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0;
 }
  
-  /* article {
-    padding: 10px 20px;
-    background-color: rgb(46, 147, 198);
-  }
-
-  aside {
-    float: right;
-    border-style: solid;
-    border: black; 
-    border-width: 2px;
-  } */
-
-  
