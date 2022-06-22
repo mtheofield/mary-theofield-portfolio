@@ -12,7 +12,7 @@ I created this unique website to fit my style and personality. I will continue t
     *CSS 
 
 ## Website
-https://mtheofield.github.io/Module-1-Challenge/
+https://mtheofield.github.io/mary-theofield-portfolio/
 
 Contribution
 Made by Mary Theofield 
