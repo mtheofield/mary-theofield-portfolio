@@ -150,6 +150,14 @@ div{
   padding: 0px;
   margin-top: 0 auto;
 }
+.webimg{
+  display: flex;
+  flex-wrap: wrap;
+  border: #ddd;
+  width:  200px;
+  padding: 0px;
+  margin-top: 0 auto;
+}
 
 footer {
     background-image: url("https://cdn.searchenginejournal.com/wp-content/uploads/2022/04/3-ways-to-automate-ads-625d490bea8fa-sej.png");
